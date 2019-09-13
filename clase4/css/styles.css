@@ -1,24 +1,28 @@
-.clase {
-    color : #bbffff;
-    background-color: gray;
-    letter-spacing: 10px;
-    word-spacing: 15px;
-    text-decoration: underline;
+.clase1 {
+  background-color: #f00;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
 }
-
-.azul {
-    color : blue;
-    font-size: 100px;
-    text-decoration: line-through;
+.clase2 {
+  background-color: #0f0;
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  /*position: relative; por defecto es relativa y me toma los porcentajes de padre y empieza a funcionar como pantalla de los hijos*/
 }
-
-.rojo {
-    color : red;
-    font-family: cursive;
-    font-weight: 800;
+.clase3 {
+  background-color: #00f;
+  width: 50%;
+  height: 50%;
+  display: inline-flex;
+  /*display: none; no lo muestra pero ocupa el espacio*/
 }
-
-.rosa {
-    color : pink;
-    font-weight: bolder;
+.clase4 {
+  background-color: #000;
+  width: 50px; /* me va a tomar el porcentaje de toda la pantalla*/
+  height: 50px;
+  /*position: absolute; va asituarla en el medio de la pantalla
+  top: 50%;
+  left: 50%;*/
 }
