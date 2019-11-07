@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+    
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBnLP51kVTBsXQTH8QGdoT7hnU2dOPcwd0",
+            authDomain: "hotel-db-spring.firebaseapp.com",
+            databaseURL: "https://hotel-db-spring.firebaseio.com",
+            projectId: "hotel-db-spring",
+            storageBucket: "hotel-db-spring.appspot.com",
+            messagingSenderId: "619255228690",
+            appId: "1:619255228690:web:e51dd3a7f95e3af352abcb",
+            measurementId: "G-BNXMJHRGWL"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <script src="script.js"></script>
+
+</head>
+
+<table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Username</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Password</th>
+          </tr>
+        </thead>
+        <tbody id = "user-tbody">
+        </tbody>
+      </table>
+
+</html>

@@ -1,0 +1,24 @@
+.intro-section {
+	padding-top: 100px;
+	position: relative;
+	background-size: cover;
+	z-index: 1;
+	background-image: url(images/slider-1-1920x1080.jpg);
+}
+
+.intro {
+	padding: 0 20px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: 4.5em;
+	line-height: 1.1;
+	color: #ddd;
+	text-align: center;
+}
