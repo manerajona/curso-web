@@ -1,4 +1,5 @@
 [//]:  headings
+
 #Hello world!
 ##This is my first page
 ###Lorem ipsum
@@ -27,6 +28,7 @@
 * Cheese
 
 ###Number list
+
 1. Milk
 2. Eggs
 3. Ice cream
