@@ -1,16 +1,16 @@
 # Shields.io
 
-####  Code size
+###  Code size
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/manerajona/curso-web)
 
 
-####  Last commit
+###  Last commit
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/manerajona/curso-web)
 
 
-####  contributors
+###  contributors
 
 ![GitHub contributors](https://img.shields.io/github/contributors/manerajona/curso-web)
 
