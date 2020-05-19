@@ -5,6 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <title>The Go blog</title>
+    <!-- seo -->
+    <meta name="description" content="This is the best Go blog in the multiverse">
+    <meta name="keywords" content="go,golang,blog,programming,software,developer">
 </head>
 <!-- The body is what the user see-->
 
@@ -58,6 +61,38 @@
     <!-- embedding video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5IVU7qjZD8" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </br>
+
+    <h2>Contact us</h2>
+
+    <!--Form-->
+    <form>
+        <!--input text-->
+        Name: <input type="text" name="name" id="name"></br>
+
+        <!--input email-->
+        Email: <input type="email" name="email" id="email"></br>
+
+        <!-- input check boxes -->
+        <p>What is your message about?</p>
+        <input type="checkbox" name="question" value="question" id="question">Question</br>
+        <input type="checkbox" name="greeting" value="greeting" id="greeting">Greeting</br>
+        <input type="checkbox" name="advice" value="advice" id="advice">Advice</br>
+
+        <!-- radio buttons -->
+        <p>Do you like Go?</p>
+        <input type="radio" name="radio_group" id="yes">Yes :)</br>
+        <input type="radio" name="radio_group" id="no">No :'( </br>
+
+        <!-- text area -->
+        <p>Message</p>
+        <textarea>Add your message here!</textarea></br>
+
+        <!-- input button -->
+        <input type="submit" value="Send">
+
+    </form>
 
 </body>
 
