@@ -80,28 +80,28 @@ The next thing is very `IMPORTANT`
 
 ### Table
 
-#### aling-right
+#### align-right
 | col1 | col2 | col3 |
 |------|------|------|
 |1|XXX|YYY|
 |2|XXX|YYY|
 |3|XXX|YYY|
 
-#### aling-left
+#### align-left
 | col1 | col2 | col3 |
 |-----:|-----:|-----:|
 |1|XXX|YYY|
 |2|XXX|YYY|
 |3|XXX|YYY|
 
-#### aling-center
+#### align-center
 | col1 | col2 | col3 |
 |:----:|:----:|:----:|
 |1|XXX|YYY|
 |2|XXX|YYY|
 |3|XXX|YYY|
 
-###Images
+### Images
 ![](md.png "Markdown logo")
 
 ### Special characters
