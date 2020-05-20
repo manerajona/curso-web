@@ -1,0 +1,33 @@
+h1,
+p {
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px;
+}
+
+.red {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    border: solid 6px pink;
+    padding: 20px;
+    margin: 20px;
+}
+
+.green {
+    background-color: green;
+    width: 50rem;
+    height: 50rem;
+    border: dotted 5px greenyellow;
+    padding: 15px;
+    margin: 15px;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: dashed 4px blueviolet;
+    padding: 10px;
+    margin: 10px;
+}

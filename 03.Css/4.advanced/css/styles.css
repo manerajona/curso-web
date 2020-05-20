@@ -1,0 +1,14 @@
+h1,
+h2,
+p {
+    color: skyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px;
+    font-weight: bolder;
+}
+
+.background {
+    background: url("../img/milky-way.jpg") top center no-repeat;
+    width: 100%;
+    height: 300px;
+}

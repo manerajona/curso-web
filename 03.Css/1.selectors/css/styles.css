@@ -1,19 +1,21 @@
 /* Element selectors*/
 h1,
 h2 {
-  color: steelblue;
+  color: darkblue;
 }
 
 h3 {
-  color: coral;
+  color: #009985;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p {
-  color: brown;
+  color: rgb(151, 110, 21);
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 /* Id selectors*/
@@ -32,17 +34,11 @@ p {
 .class2 {
   background-color: #0f0;
   width: 50%;
-  height: 100%;
-}
-
-.class3 {
-  background-color: #00f;
-  width: 50%;
   height: 50%;
 }
 
-.class4 {
-  color: white;
+.class3 {
+  color: #00f;
 }
 
 /* All selector (wildcard) */

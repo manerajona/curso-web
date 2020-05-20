@@ -1,6 +1,6 @@
 h1,
 h2 {
-    color: chocolate;
+    color: brown;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -8,13 +8,13 @@ h2 {
 .red {
     color: red;
     font-size: 18px;
-    font-family: cursive;
+    font-weight: bolder;
 }
 
 .green {
     color: green;
     font-size: 18px;
-    font-weight: bolder;
+    font-family: cursive;
 }
 
 .blue {
