@@ -45,7 +45,7 @@ p {
   color: white;
 }
 
-/* All selector */
+/* All selector (wildcard) */
 * {
   padding: 5px;
   margin: 5px;
