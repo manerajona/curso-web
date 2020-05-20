@@ -5,12 +5,6 @@ h2 {
 
 }
 
-.blue {
-    color: blue;
-    font-size: 18px;
-    text-decoration: line-through;
-}
-
 .red {
     color: red;
     font-size: 18px;
@@ -21,4 +15,10 @@ h2 {
     color: green;
     font-size: 18px;
     font-weight: bolder;
+}
+
+.blue {
+    color: blue;
+    font-size: 18px;
+    text-decoration: line-through;
 }
