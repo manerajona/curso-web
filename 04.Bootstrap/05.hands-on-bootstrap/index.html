@@ -18,18 +18,30 @@
 </head>
 
 <body>
-    <!-- nav bar -->
-    <nav id="navbar">
-        <!--menu icon-->
-        <div class="sandwich-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <!--brand-->
+        <a class="navbar-brand" href="#">
+            <img class="d-inline-block align-top" src="../../assets/go-logo.svg" alt="The Go blog" height="10%"
+                width="10%">
+        </a>
+        <!--responsive-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
         <!--menu-->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About us</a></li>
-            <li><a href="downloads.html">Downloads</a></li>
-            <li><a href="index.html">Contact</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="navbar-nav">
+                <a class="nav-item active menu-link" href="index.html">Home</a>
+                <a class="nav-item active menu-link" href="index.html">About us</a>
+                <a class="nav-item active menu-link" href="downloads.html">Downloads</a>
+                <a class="nav-item active menu-link" href="index.html">Contact</a>
+            </div>
+        </div>
     </nav>
+
     <!--header-->
     <div class="background">
         <header>
@@ -52,7 +64,7 @@
         <section>
             <p>three</p>
         </section>
-        
+
     </div>
     <!--footer-->
     <footer>

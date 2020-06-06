@@ -90,7 +90,6 @@ footer {
         float: none;
         display: block;
         height: 25px;
-        display: none;
     }
 
     #navbar li a {
@@ -102,7 +101,6 @@ footer {
 
     .sandwich-icon {
         display: block;
-        text-align: right;
     }
     
     section {
