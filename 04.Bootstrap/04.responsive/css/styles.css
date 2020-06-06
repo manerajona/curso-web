@@ -78,7 +78,48 @@ footer {
 }
 
 .sandwich-icon {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 10px 10px;
     display: none;
+}
+
+/* MEDIA QUERY*/
+@media screen and (max-width: 820px) {
+    
+    #navbar li {
+        float: none;
+        display: block;
+        height: 25px;
+        display: none;
+    }
+
+    #navbar li a {
+        padding: 2px;
+        font-size: 1em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .sandwich-icon {
+        display: block;
+        text-align: right;
+    }
+    
+    section {
+        padding: 5px;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+    
+    header small {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 5px;
+    }
 }
