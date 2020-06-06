@@ -6,33 +6,51 @@ if (a == b) {
     console.log("a eq b")
 }
 
-if (a == 2 && b == 2) {
-    console.log("a and b = 2")
+if (b == '2') {
+    console.log("b eq 2")
 }
 
+b++
+if (b === '3') {
+    console.log("b eq 3")
+}
+
+if (b == 3) {
+    console.log("b eq 3")
+}
+
+if (a === 2) {
+    console.log("a eq 2")
+} else {
+    console.log("a not eq 2")
+}
+
+a++
 if (a == 1 || a == 2 || a == 3) {
     console.log("a is 1 or 2 or 3")
 }
 
-a++
-if (a == b) {
-    console.log("a eq b")
+if(a===b && b===1000) {
+    console.log("a eq b and b eq 3")
 } else {
-    console.log("a not eq b")
+
+    var mje = a===b ? "b not eq 1000" : "?";
+    console.log(mje);
+
 }
 
-a++
-if (a == 1) {
+if (a === 1) {
     console.log("a is 1")
-} else if (a == 2) {
+} else if (a === 2) {
     console.log("a i2 2")
-} else if (a == 3) {
+} else if (a === 3) {
     console.log("a is 3")
 } else {
     console.log("a is not 1, 2 or 3")
 }
 
 // switch...case
+a++
 switch (a) {
     case 1:
         console.log("a is 1");
@@ -57,8 +75,8 @@ for (var i = 0; i <= 10; i++) {
 
 // while
 var x = 50;
-while (x != 0) {
-    if (x % 5 == 0) {
+while (x !== 0) {
+    if (x % 5 === 0) {
         console.log(x + " is divisible by 5");
     }
     x--
@@ -68,7 +86,7 @@ while (x != 0) {
 var isTrue = true;
 y = 100;
 do {
-    if (y == 10) {
+    if (y === 10) {
         console.log("y is 10");
         isTrue = false;
     }

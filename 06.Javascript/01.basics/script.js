@@ -67,6 +67,9 @@ console.log(a>b);
 console.log("a<b");
 console.log(a<b);
 
+console.log("a===b");
+console.log(a===b);
+
 console.log("a==b");
 console.log(a==b);
 
@@ -82,3 +85,17 @@ console.log(a!=b);
 console.log("!(a==b)");
 console.log(!(a!=b));
 
+console.log("== vs. ===");
+// Number validation
+console.log(0 == '');       // true
+console.log(0 == '0');      // true
+console.log(0 === '');      // false
+console.log(0 === '0');     // false
+
+// boolean validation
+console.log(false == 'false');   // false
+console.log(false == '0');       // true
+console.log(false === '0');      // false
+
+// null and undefined
+console.log(null == undefined)   // true
