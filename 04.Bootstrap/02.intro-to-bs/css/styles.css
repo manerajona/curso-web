@@ -1,16 +1,49 @@
-.my-header {
-    margin-top: 50px;
-    margin-bottom: 12px;
+body {
+    background-color: #413c3c;
+    color: #df0030;
 }
 
-.my-header h1 {
-    font-size: 40px;
-    letter-spacing: 10px;
-    word-spacing: 15px;
-    text-decoration: underline;
+a {
+    text-decoration: none;
+    color: #ff3a65;
 }
 
-.my-header h2 {
-    font-size: 30px;
-    font-family: cursive;
+a:hover {
+    text-decoration: solid;
+    color: #df0030
+}
+
+#navbar {
+    background-color: #080808;
+    z-index: 100;
+}
+
+#navbar ul {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar li a {
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#navbar li a:hover {
+    background-color: #df0030;
+    color: #ffe4e4;
+}
+
+.sandwich-icon {
+    font-size: 2em;
+    padding: 10px 10px;
+    display: none;
 }
