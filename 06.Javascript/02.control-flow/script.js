@@ -32,7 +32,9 @@ if (a == 1 || a == 2 || a == 3) {
 
 if(a===b && b===1000) {
     console.log("a eq b and b eq 3")
-} else {
+}
+
+else {
 
     var mje = a===b ? "b not eq 1000" : "?";
     console.log(mje);
