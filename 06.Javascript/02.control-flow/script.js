@@ -1,6 +1,5 @@
 // if...else
-var a = 2,
-    b = 2;
+var a = 2, b = 2;
 
 if (a == b) {
     console.log("a eq b")
@@ -12,17 +11,17 @@ if (b == '2') {
 
 b++
 if (b === '3') {
+    console.log("b eq '3'")
+}
+
+if (b === 3) {
     console.log("b eq 3")
 }
 
-if (b == 3) {
-    console.log("b eq 3")
-}
-
-if (a === 2) {
-    console.log("a eq 2")
+if (a === 3) {
+    console.log("a eq 3")
 } else {
-    console.log("a not eq 2")
+    console.log("a not eq 3")
 }
 
 a++
@@ -33,7 +32,6 @@ if (a == 1 || a == 2 || a == 3) {
 if(a===b && b===1000) {
     console.log("a eq b and b eq 3")
 }
-
 else {
 
     var mje = a===b ? "b not eq 1000" : "?";
