@@ -5,16 +5,16 @@ body {
 
 a {
     text-decoration: none;
-    color: #A8C8FF;
+    color: #87A0CC;
 }
 
 a:hover {
     text-decoration: solid;
-    color: #5480CC
+    color: #365895
 }
 
 #navbar {
-    background-color: #1C2433;
+    background-color: #323C4D;
 }
 
 #navbar ul {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 #navbar li a:hover {
-    background-color: #A8C8FF;
+    background-color: #87A0CC;
     color: #E6EFFF;
 }
 
@@ -66,11 +66,11 @@ section {
     margin: 0 auto;
     padding: 10px 20px;
     margin: 5px;
-    
+
     border: 1px solid;
     border-color: #E6EFFF;
     border-radius: 1em;
-    background: linear-gradient(to right, #5480CC, #54648000);
+    background: linear-gradient(to right, #4979CC, #323c4d00);
 }
 
 footer {
@@ -85,7 +85,7 @@ footer {
 
 /* MEDIA QUERY*/
 @media screen and (max-width: 820px) {
-    
+
     #navbar li {
         float: none;
         display: block;
@@ -102,7 +102,7 @@ footer {
     .sandwich-icon {
         display: block;
     }
-    
+
     section {
         padding: 5px;
         border-radius: 0;
@@ -112,7 +112,7 @@ footer {
     header h1 {
         font-size: 3em;
     }
-    
+
     header small {
         font-size: 1em;
     }
