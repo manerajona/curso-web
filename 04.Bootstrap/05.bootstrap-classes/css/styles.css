@@ -23,6 +23,7 @@ body {
 header {
     position: relative;
     width: 100%;
+    height:450px;
     text-align-last: center;
     padding: 100px;
 }
@@ -45,8 +46,10 @@ section {
     background: linear-gradient(to right, #4979CC, #323c4d00);
 }
 
-section h2 {
-    font-size: 25px;
+.feature, .video, .message {
+    min-height:300px;
+    margin-bottom: 30px;
+    height:380px;
 }
 
 footer {
